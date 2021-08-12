@@ -1,0 +1,45 @@
+.pic-box{
+  height: 200px;
+
+}
+
+.mainbox-aboutme{
+  height: 586px;
+}
+
+.box-about-me{
+  height: auto;
+}
+
+.box-about-me ul {
+  list-style: none;
+
+}
+.box-about-me ul li{
+  width: 200px;
+}
+
+
+/*LANGUAGES --- START ---*/
+
+progress[value] {
+  /* Reset the default appearance of the Bar*/
+  -webkit-appearance: none;
+   appearance: none;
+}
+progress[value]::-webkit-progress-bar {
+  background-color: #EEE;
+  border-radius: 20px; 
+  height: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: rgb(23, 187, 23);
+
+    border-radius: 20px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+    transition: all 1s ease;
+}
+
+/*LANGUAGES --- END ---*/

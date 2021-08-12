@@ -1,0 +1,22 @@
+.navbar{
+  background-color: black;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: gray;
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-collapse{
+  display: flex;
+  justify-content: center;
+}
+.navbar-nav{
+  width: 700px;
+  display: flex;
+  justify-content: space-around;
+}
