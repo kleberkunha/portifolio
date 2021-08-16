@@ -1,4 +1,6 @@
 
+/*
+
 setInterval(() => {
   while (document.getElementsByTagName('progress')[0].value != 10){
     document.getElementsByTagName('progress')[0].value += 1;
@@ -26,3 +28,6 @@ setInterval(() => {
     return document.getElementsByTagName('progress')[3].value;
   }
 }, 250);
+*/
+
+

@@ -2,29 +2,24 @@ import React from 'react';
 import './style.css';
 import '../MainComponents';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Nav, Navbar, Container, NavDropdown } from 'react-bootstrap';
+import {   Nav, Navbar, Container } from 'react-bootstrap';
 import { HeaderArea } from '../MainComponents';
-
-
+import { Link } from 'react-router-dom';
 
 const Header = () =>  {
   return (
     <HeaderArea>
       <Navbar className="navbar" collapseOnSelect expand="lg" variant="dark">
         <Container>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="">
-            <Nav.Link href="/home">Home</Nav.Link>
-            <Nav.Link href="/studies">Studies</Nav.Link>
-            <Nav.Link href="/projects">Projects</Nav.Link>
-            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Project-1</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Project-1</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Project-1</NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="nav">
+              <Link to="/home"><h5>Home</h5></Link>
+              <Link to="/studies"><h5>Studies</h5></Link>
+              <Link to="/projects"><h5>Projects</h5></Link>
+            </Nav>
+          </Navbar.Collapse>
+          <div className="text-center d-flex">Status :&nbsp; Available <div className="available border"></div></div>
         </Container>
       </Navbar>
     </HeaderArea>

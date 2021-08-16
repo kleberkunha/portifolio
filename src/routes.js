@@ -11,10 +11,10 @@ export default () => {
       <Route exact path="/home">
         <Home/>
       </Route>
-      <Route exact path="/projects" component={Projects}>
+      <Route exact path="/projects">
         <Projects/>
       </Route>
-      <Route exact path="/studies" component={Studies}>
+      <Route exact path="/studies">
         <Studies/>
       </Route>
     </Switch>

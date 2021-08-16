@@ -1,45 +1,102 @@
-.pic-box{
-  height: 200px;
+body{
+  color: white;
 
 }
 
-.mainbox-aboutme{
-  height: 586px;
+.main-container{
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px 5px black;
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 0px;
 }
 
-.box-about-me{
-  height: auto;
+/*PROFILE PICTURE --- START ----*/
+.container-img{
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background-image: url('../../images/myface.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid white;
+  box-shadow: 0px 0px 5px 5px black;
 }
-
-.box-about-me ul {
+/*PROFILE PICTURE --- END ----*/
+/*########################################################################*/
+/*########################################################################*/
+/*TITLE CSS --- START ---*/
+.title{
+  font-size: 25px;
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.main-status{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  margin-left: 15px;
+}
+.available{
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+  border-radius: 50px;
+  background-color: rgb(7, 247, 7);
+}
+/*TITLE CSS --- END ---*/
+/*########################################################################*/
+/*########################################################################*/
+/*LENGUAGES PORTUGUESE-ENGLISH-FRENCH  ---- START ----*/
+.item-1{
+  margin-left: 40px;
+}
+.item-lenguage {
+  animation-name: example;
+  animation-duration: 3s;
+  display: flex;
+  justify-content: center;
+}
+@keyframes example {
+   0%   {opacity: 0; left:0px; top:0px;}
+  100%  {opacity: 1; left:200px; top:0px;}
+}
+/*LENGUAGES PORTUGUESE-ENGLISH-FRENCH  ---- END ----*/
+/*########################################################################*/
+/*########################################################################*/
+/*ABOUT ME  ---- START ----*/
+.main-about-me{
+  display: flex;
+  justify-content: flex-end;
+}
+.main-about-me div{
+  margin-right: 18px;
+}
+/*ABOUT ME  ---- END ----*/
+/*########################################################################*/
+/*########################################################################*/
+.main-hobbie-contact{
+  height: 253px;
+}
+/*HOBIES LIST ---- START ----*/
+.list-hobies{
   list-style: none;
+  justify-content: center;
+}
+.list-hobies li {
+  padding: 20px;
+  margin-right: 20px;
+}
+/*HOBIES LIST ---- END ----*/
+/*########################################################################*/
+/*########################################################################*/
+/*CONTACT ---- START ----*/
+.contact-location{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
-.box-about-me ul li{
-  width: 200px;
-}
-
-
-/*LANGUAGES --- START ---*/
-
-progress[value] {
-  /* Reset the default appearance of the Bar*/
-  -webkit-appearance: none;
-   appearance: none;
-}
-progress[value]::-webkit-progress-bar {
-  background-color: #EEE;
-  border-radius: 20px; 
-  height: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
-}
-
-progress[value]::-webkit-progress-value {
-  background-color: rgb(23, 187, 23);
-
-    border-radius: 20px; 
-    background-size: 35px 20px, 100% 100%, 100% 100%;
-    transition: all 1s ease;
-}
-
-/*LANGUAGES --- END ---*/
+/*CONTACT ---- START ----*/
+/*########################################################################*/
+/*########################################################################*/

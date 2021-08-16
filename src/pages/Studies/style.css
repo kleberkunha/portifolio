@@ -1,0 +1,251 @@
+.main-container-studies {
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px 5px black;
+  background-color: rgba(0, 0, 0, 0.29);
+}
+
+.box-items-studies{
+  display: flex;
+  justify-content: center;
+}
+/*###################################################################################*/
+/*###################################################################################*/
+/*CONTAINER INFO STUDIES ---- START ----*/
+
+/*
+.boxes-school-infos{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 5px 3px black;
+}
+*/
+/*CONTAINER INFO STUDIES ---- END ----*/
+/*###################################################################################*/
+/*###################################################################################*/
+/*ICOS STUDIES ---- START*/
+
+.main-box-ico42{
+  height: 200px;
+  width: 205px;
+  align-items: center;
+  display: flex;
+  
+}
+.about{
+  height: 100px;
+  width: 200px;
+  text-align: right;
+  border-radius: 0px 100px 100px 0px;
+  margin-left: -40px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  background-color: rgb(0, 18, 250);
+  border-color:  rgb(0, 18, 250);
+  box-shadow: 0px 0px 2px 1px rgb(0, 18, 250);
+}
+.about:hover{
+  background-color: rgb(0, 18, 200);
+  border-color:  rgb(0, 18, 200);
+  box-shadow: 0px 0px 2px 1px rgb(0, 18, 200);
+}
+/*ICOS STUDIES --- END ---*/
+/*###################################################################################*/
+/*###################################################################################*/
+/*ICOS --- START ---*/
+.img-42{
+  width: 140px;
+  height: 140px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaFOpscjfiLxehOGgvXzab17vfFpuYHjhkYqEo18u4q73zwsQ-neGXf4nCWnvEOPetGqs&usqp=CAU');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.img-42:hover{
+  border: 3px solid blue;
+}
+.img-curso-em-video{
+  width: 140px;
+  height: 140px;
+  background-image: url('https://pbs.twimg.com/profile_images/378800000157650181/8e1bbdf27ff82759f9101e5e7dfc0c31.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.img-curso-em-video:hover{
+  border: 3px solid blue;
+}
+.img-thp{
+  width: 140px;
+  height: 140px;
+  background-image: url('https://avatars.githubusercontent.com/u/25484553?s=200&v=4');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.img-thp:hover{
+  border: 3px solid blue;
+}
+
+.img-b7-web{
+  width: 140px;
+  height: 140px;
+  background-image: url('https://b7web.com.br/wp-content/uploads/2018/12/b7_logo.png');
+  background-position: center;
+  background-size: 69%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.img-b7-web:hover{
+  border: 3px solid blue;
+}
+.sub-main-icob7{
+  z-index: 10;
+  border-radius: 100px;
+}
+
+.img-3wschool{
+  width: 140px;
+  height: 140px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1200px-W3Schools_logo.svg.png');
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.img-3wschool:hover{
+  border: 3px solid blue;
+}
+.img-openclassroom{
+  width: 140px;
+  height: 140px;
+  background-image: url('https://www.lh-jobs.fr/sites/default/files/styles/squared_logo_mobile_2x/public/job-logo/goldenbees-openclassrooms-prio.png?itok=JvB96ySu&timestamp=1612824961');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.img-openclassroom:hover{
+  border: 3px solid blue;
+}
+
+.img-teacher{
+  width: 140px;
+  height: 140px;
+  background-image: url('https://images.assetsdelivery.com/thumbnails/putracetol/putracetol1805/putracetol180503975.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.img-teacher:hover{
+  border: 3px solid blue;
+}
+
+/*ICOS --- END ---*/
+/*###################################################################################*/
+/*###################################################################################*/
+/*LANGUAGES SLIDES ---- START ----*/
+.main-languages-explanation{
+  margin-top: 100px;
+}
+.top-icos-code-languages{
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+}
+.top-icos-code-languages ul{
+  width: 800px;
+  justify-content: space-between;
+}
+.top-icos-code-languages ul li{
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+
+.html{
+  width: 50px;
+  height: 50px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png');
+  background-position:center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.css{
+  width: 50px;
+  height: 50px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png');
+  background-position:center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bootstrap{
+  width: 50px;
+  height: 50px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png');
+  background-position:center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.js{
+  width: 50px;
+  height: 50px;
+  background-image: url('https://www.seekpng.com/png/full/80-803501_javascript-logo-logo-de-java-script-png.png');
+  background-position:center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.git{
+  width: 50px;
+  height: 50px;
+  background-image: url('https://iconape.com/wp-content/png_logo_vector/git-icon.png');
+  background-position:center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.reactjs{
+  width: 50px;
+  height: 50px;
+  background-image: url('https://ionicframework.com/docs/assets/icons/logo-react-icon.png');
+  background-position:center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+/*Content about each CODE LENGUAGE ---- START ----*/
+
+.main-box-img-about-icos{
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 3px black;
+  
+}
+
+.main-text-about-icos{
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px 3px black;
+  height: 348px;
+}
+
+.img-box-content{
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px 3px black;
+  border-radius: 20px;
+  height: 220px;
+  background-image: url('https://en-marche.fr/assets/images/ecole-42-en-marche-emmanuel-macron-niel-code-dev-french-tech.jpg?q=70&cache=15d88f6e63eaa73b665c&fm=pjpg&s=3127360a86ae16887bbc61182836c450');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+/*Content about each CODE LENGUAGE ---- END ----*/
+
+
+
+/*LANGUAGES SLIDES ---- END ----*/
